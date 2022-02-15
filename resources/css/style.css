@@ -1,0 +1,118 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0px 0px;
+}
+header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: 0px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+#logo {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+#nav {
+    margin-right: 30px;
+}
+#nav li {
+    display: inline;
+    font-size: 28px;
+    margin: auto 20px;
+}
+a {
+    color: seashell;
+}
+footer,
+main {
+    position: relative;
+    top: 100px;
+    margin: auto 50px;
+}
+#top {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#top div{
+    margin: auto 0;
+    background-color: black;
+    width: 100%;
+}
+
+#teaofthemonth figure img {
+    height: 200px;
+    width: 300px;
+}
+
+#teaofthemonth div {
+    margin-top: 100px;
+}
+
+#teaofthemonth div figure{
+    display: inline-flex;
+    justify-items: center;
+}
+
+#teaofthemonth div figcaption{
+    position: relative;
+    left: -275px;
+    top: -75px;
+}
+
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#locationscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#locationscontainer div {
+    background-color: black;
+    width: 300px;
+    margin: 15px 40px;
+    opacity: 1;
+    padding: 10px;
+}
+#locations h2 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 3px 3px black;
+}
+
+footer div{
+    height: 200px;
+}
+footer {
+    margin-bottom: 150px;
+}
+footer > h5 {
+    text-align: left;
+}
